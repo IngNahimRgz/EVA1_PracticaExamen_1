@@ -25,7 +25,8 @@
 
         <RadioGroup
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:id="@+id/rdgCafe">
 
             <RadioButton
                 android:layout_width="wrap_content"
@@ -86,13 +87,14 @@
             android:layout_height="wrap_content"
             android:text="Azucar ($1)"
             android:id="@+id/chkbxAzucar" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Crema ($1)"
+            android:id="@+id/chkbxCrema" />
     </LinearLayout>
 
-    <CheckBox
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Crema"
-        android:id="@+id/chkbxCrema" />
 
     <TextView
         android:layout_width="wrap_content"
